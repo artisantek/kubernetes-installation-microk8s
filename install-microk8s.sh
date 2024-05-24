@@ -19,7 +19,7 @@ sudo chown -f -R $USER ~/.kube
 echo "            -> Done"
 
 echo "     STEP 3: Creating Alias for mkctl"
-echo "alias mkctl='microk8s kubectl'" >> "$HOME/.bashrc"
+echo "alias kubectl='microk8s kubectl'" >> "$HOME/.bashrc"
 source "$HOME/.bashrc"
 echo "            -> Done"
 
